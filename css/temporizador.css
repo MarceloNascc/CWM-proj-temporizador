@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'RobotoMono';
+    src: url('../fonts/RobotoMono-Thin.ttf') format('truetype');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'RobotoMono', monospace;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, rgb(180, 221, 126), rgb(118, 221, 0));
+}
+
+h1 {
+    color: #FFF;
+    font-size: 3em;
+}
+
+.temporizador .digito {
+    background-color: #5a5a5a;
+    color: #a7ff43;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 8px;
+    font-size: 3.5em;
+}
+
+.temporizador .separador {
+    color: #000;
+    margin: 5px;
+    font-size: 4em;
+}
+
+.temporizador .mensagem {
+    color: #888888;
+    font-family: 'Indie Flower', cursive;
+
+    text-align: center;
+    padding-top: 80px;
+    font-size: 3.8em;
+    font-weight: bold;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='UTF-8'>
+    <title>Projeto Plugin jQuery</title>
+    <link rel='stylesheet' href='css/temporizador.css'>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+    <script src='js/jquery.js'></script>
+</head>
+
+<body>
+    <h1>Projeto Plugin - Temporizador</h1>
+    <div></div>
+    <script src="js/temporizador.js"></script>
+    <script>
+        $('div').temporizador({
+            mensagem: 'Aguarde para ver! :p',
+            horario: '23:59:59'
+        }).hide().fadeIn(3000);
+    </script>
+</body>
